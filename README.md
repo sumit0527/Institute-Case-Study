@@ -216,109 +216,108 @@ Captures leads and enquiries from potential students.
 
 ## 🧠 SECTION 1: Revenue & Business Performance
 
-**Case 1: Overall Business Health**
+### Case 1: Overall Business Health
 
-**Question:**
+#### Question:
 Management wants to understand how much total revenue the institute has generated so far from successful payments.
 
 
-**Case 2: Revenue Trend Analysis**
+### Case 2: Revenue Trend Analysis
 
-**Question:**
+#### Question:
 The finance team wants to track revenue growth over time to identify peak admission months.
 
 
-**Case 3: Course Profitability**
+### Case 3: Course Profitability
 
-**Question:**
+#### Question:
 Not all courses perform equally. Management wants to know which courses contribute the most to revenue.
 
-### 🎓 SECTION 2: Student Enrollment Insights
+## 🎓 SECTION 2: Student Enrollment Insights
 
-**Case 4: Course Popularity**
+### Case 4: Course Popularity
 
-**Question:**
+#### Question:
 The academic team wants to know which courses are attracting the most students.
 
 
-**Case 5: Student Lifecycle Status**
+### Case 5: Student Lifecycle Status
 
-**Question:**
+#### Question:
 To improve retention, management wants a snapshot of how many students are currently active, completed, or dropped.
 
 
-**Case 6: Upskilling Behavior**
+### Case 6: Upskilling Behavior
 
-**Question:**
+#### Question:
 Some students enroll in multiple courses. Identifying them helps in targeted marketing.
 
-### 🧑‍🏫 SECTION 3: Trainer & Batch Performance
+## 🧑‍🏫 SECTION 3: Trainer & Batch Performance
 
-**Case 7: Trainer Workload**
+### Case 7: Trainer Workload
 
-**Question:**
+#### Question:
 Management wants to ensure trainers are not overloaded or underutilized.
 
 
-**Case 8: Trainer Impact**
+### Case 8: Trainer Impact
 
-**Question:**
+#### Question:
 Which trainers are handling the most students across all their batches?
 
-### SECTION 4: Attendance & Engagement
+## SECTION 4: Attendance & Engagement
 
-**Case 9: Student Engagement**
+### Case 9: Student Engagement
 
-**Question:**
+#### Question:
 Regular attendance is critical for course completion.
 
 
-**Case 10: At-Risk Students**
+### Case 10: At-Risk Students
 
-**Question:**
+#### Question:
 Students with attendance below 75% are at risk of dropping out.
 
-### 💳 SECTION 5: Payments & Financial Risk
+## 💳 SECTION 5: Payments & Financial Risk
 
-**Case 11: Outstanding Dues**
+### Case 11: Outstanding Dues
 
-**Question:**
+#### Question:
 The accounts team wants to identify students who have not fully paid their course fees.
 
 
-**Case 12: Installment Patterns**
+### Case 12: Installment Patterns
 
-**Question:**
+#### Question:
 Many students prefer installment payments. Management wants to analyze this trend.
 
-#### 📜 SECTION 6: Certification & Completion
+## 📜 SECTION 6: Certification & Completion
 
-**Case 13: Certification Gaps**
+### Case 13: Certification Gaps
 
-**Question:**
+#### Question:
 Some students have completed courses but haven’t received certificates yet.
 
-### 📞 SECTION 7: Marketing & Lead Analysis
+## 📞 SECTION 7: Marketing & Lead Analysis
 
-**Case 14: Lead Conversion Effectiveness**
+### Case 14: Lead Conversion Effectiveness
 
-**Question:**
+#### Question:
 Marketing wants to measure how effective enquiries are turning into enrollments.
 
+### Case 15: Demand Forecasting
 
-**Case 15: Demand Forecasting**
-
-**Question:**
+#### Question:
 To plan future batches, management wants to know which courses receive the most enquiries.
 
-### ⭐ SECTION 8: Strategic Decisions (Advanced)
+## ⭐ SECTION 8: Strategic Decisions (Advanced)
 
-**Case 1️⃣6️⃣: Revenue Focus Strategy**
+### Case 16: Revenue Focus Strategy
 
-**Question:**
+#### Question:
 Management wants to focus marketing and trainer allocation on top-performing courses.
 
-━━━
+--- 
 
 ## 🛠️ How to Use
 -  Run the provided SQL script (when available) in your favorite RDBMS (PostgreSQL, MySQL, etc.).
@@ -326,10 +325,9 @@ Management wants to focus marketing and trainer allocation on top-performing cou
 -  Write and run SQL queries to find answers.
 -  Cross-check with the solution script for learning and validation.
 
-━━━
+---
 
 ## 🎯 Outcomes & Insights
----
 
 Using this database system, management can:
 
@@ -342,27 +340,21 @@ Using this database system, management can:
 
 The system ensures both operational control and analytical visibility.
 
-━━━
+---
 
 ## 🛠 Technologies Used
----
 
 -  MySQL
 -  SQL (DDL, DML, Joins, Aggregations)
 -  Triggers
 -  Constraints (Primary Key, Foreign Key, Unique)
 
-━━━
+---
 
 ## 👨‍💻 Author
 Sumit Patil
 
 This project demonstrates practical database design, business logic implementation, and analytical SQL problem-solving skills.
-
-
-
-
-
 
 
 
