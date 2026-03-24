@@ -527,7 +527,6 @@ BEGIN
 END $$ 
 DELIMITER ;
 
--- ⭐ FINAL INTERVIEW GOLD MASTER TRIGGER
 
 -- 13. Maintain Real-Time Batch Strength
 ALTER TABLE batches 
