@@ -303,51 +303,27 @@ SELECT * FROM deleted_users_log;
 SELECT * FROM role_changes_log;
 SELECT * FROM student_profile_updates_log;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-- ==========================================================================================================================================
+-- 📌 Create Indexes
+-- ==========================================================================================================================================
+CREATE INDEX idx_users_role_id ON users(role_id);
+CREATE INDEX idx_users_email ON users(email);
+CREATE INDEX idx_students_user_id ON students(user_id);
+CREATE INDEX idx_trainers_user_id ON trainers(user_id);
+CREATE INDEX idx_courses_category_id ON courses(category_id);
+CREATE INDEX idx_courses_status ON courses(status);
+CREATE INDEX idx_batches_course_id ON batches(course_id);
+CREATE INDEX idx_batches_start_date ON batches(start_date);
+CREATE INDEX idx_batch_trainers_batch_id ON batch_trainers(batch_id);
+CREATE INDEX idx_batch_trainers_trainer_id ON batch_trainers(trainer_id);
+CREATE INDEX idx_enrollments_student_id ON enrollments(student_id);
+CREATE INDEX idx_enrollments_batch_id ON enrollments(batch_id);
+CREATE INDEX idx_enrollments_status ON enrollments(status);
+CREATE INDEX idx_enrollments_date ON enrollments(enrollment_date);
+CREATE INDEX idx_payments_enrollment_id ON payments(enrollment_id);
+CREATE INDEX idx_payments_date ON payments(payment_date);
+CREATE INDEX idx_payments_status ON payments(payment_status);
+CREATE INDEX idx_attendance_enrollment_id ON attendance(enrollment_id);
+CREATE INDEX idx_attendance_date ON attendance(attendance_date);
+CREATE INDEX idx_certificates_enrollment_id ON certificates(enrollment_id);
+CREATE UNIQUE INDEX idx_unique_enrollment ON enrollments(student_id, batch_id);
